@@ -1,0 +1,58 @@
+ads_impression event params
+
+ad_id (string)
+ad_network (string)
+ad_type (string)
+ad_revenue (double) 
+ad_currency (string)
+ad_position (string)
+ad_mediation (string)
+
+
+event params mặc định ( bắt buộc )
+
+seq_number
+seq_session_number
+session_number
+day_from_install
+day_engagement
+
+
+user properties mặc định (bắt buộc)
+
+user_id
+device_id
+first_app_version
+current_stage
+max_stage
+ltv_ad
+ltv_purcharse
+ltv
+
+
+
+ads_info event params
+
+ad_id (string)
+ad_mediation (string)
+ad_network (string)
+ad_type (string)
+ad_position (string)
+ad_state (string)
+internet_enable (bool)
+error_code
+description
+
+
+
+
+        
+        user_ad_value
+        user_value
+        device_id
+        user_id
+        session_number
+        day_from_install
+        day_engagement
+        max_stage
+        
